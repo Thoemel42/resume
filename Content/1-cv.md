@@ -17,8 +17,6 @@
 | period      | position           | company                                          |
 |-------------|--------------------|--------------------------------------------------|
 | 2017 - 2018 | Software Developer | [SAP](https://www.sap.com)                       |
-| 2018 - 2019 | Software Developer | [SAP](https://www.sap.com)                       |
-| 2019 - 2020 | Software Developer | [SAP](https://www.sap.com)                       |
 | 2020 - 2021 | Software Developer | [Swisscom](https://www.swisscom.ch/en/home.html) |
 
 ## Skills
