@@ -73,7 +73,7 @@ fi
 mkdir -p Temp
 
 # Copy all Markdown files from the content directory to the temporary directory
-cp -R Content/* Temp
+# cp -R Content/* Temp
 
 # Create the output directory if it doesn't exist and delete all files in it
 mkdir -p Results
@@ -103,7 +103,7 @@ find Temp -type f ! -name '*.md' -delete
 echo "\n✅\tGenerate PDF for each file"
 
 # Generate PDF files
-for file in Temp/*.md; do
+for file in Content/*.md; do
   # Check if $file is a file
   if [ -f "$file" ]; then
     # Get the filename without the extension
@@ -112,7 +112,7 @@ for file in Temp/*.md; do
     # Strip leading numbers and following dash from filename
     filename=$(echo $filename | sed 's/^[0-9]-*//')
     # Generate title from filename with first letter uppercase
-    title="$(tr '[:lower:]' '[:upper:]' <<< ${filename:0:1})${filename:1}"
+    title="cv"
     echo "👉\tBuild PDF for \"${title}\""
     docker run -v $PWD:/data ghcr.io/vergissberlin/pandoc-eisvogel-de ${file} \
       -o Results/${FILENAME}-${filename}.pdf \
@@ -155,4 +155,4 @@ cat Temp/*.md | docker run -i -v $PWD:/data ghcr.io/vergissberlin/pandoc-eisvoge
 ################################################################################
 
 # Remove the temporary directory
-rm -rf Temp
+# rm -rf Temp

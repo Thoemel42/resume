@@ -1,6 +1,6 @@
 # Curriculum vitae – Thomas Schöne
 
-![TSC width=200](Media/tsct3cmd.png)
+![TSC width=200](./Media/tsct3cmd.png)
 Thomas Schöne
 
 ## Education
