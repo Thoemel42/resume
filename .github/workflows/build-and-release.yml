@@ -39,8 +39,8 @@ jobs:
             #### Download
             | PDF | EPUB |
             | --- | ---- |
-            | <img width="144" src="https://cdn.githubraw.com/vergissberlin/resume-test/main/Content/Media/Cover/Cover-pdf.png" alt="Cover for pdf" />  | <img width="144" src="https://cdn.githubraw.com/vergissberlin/resume-test/main/Content/Media/Cover/Cover-epub.png" alt="Cover for epub" /> |
-            | [![Badge CV](https://img.shields.io/badge/Download_CV-100000?style=for-the-badge&logo=Adobe&logoColor=FFFFFF&labelColor=4E4796&color=DBD7FF)](https://github.com/vergissberlin/resume-test/releases/download/${{ github.ref_name }}/resume.pdf) | [![Badge Epub](https://img.shields.io/badge/Download_EPUB-100000?style=for-the-badge&logo=Adobe&logoColor=FFFFFF&labelColor=4E4796&color=DBD7FF)](https://github.com/vergissberlin/resume-test/releases/download/${{ github.ref_name }}/resume.epub) |
+            | <img width="144" src="https://cdn.githubraw.com/${{env.GITHUB_REPOSITORY}}/main/Content/Media/Cover/Cover-pdf.png" alt="Cover for pdf" />  | <img width="144" src="https://cdn.githubraw.com/${{env.GITHUB_REPOSITORY}}/main/Content/Media/Cover/Cover-epub.png" alt="Cover for epub" /> |
+            | [![Badge CV](https://img.shields.io/badge/Download_CV-100000?style=for-the-badge&logo=Adobe&logoColor=FFFFFF&labelColor=4E4796&color=DBD7FF)](https://github.com/${{env.GITHUB_REPOSITORY}}/releases/download/${{ github.ref_name }}/resume.pdf) | [![Badge Epub](https://img.shields.io/badge/Download_EPUB-100000?style=for-the-badge&logo=Adobe&logoColor=FFFFFF&labelColor=4E4796&color=DBD7FF)](https://github.com/${{env.GITHUB_REPOSITORY}}/releases/download/${{ github.ref_name }}/resume.epub) |
 
           draft: false
           prerelease: false
