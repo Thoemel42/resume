@@ -104,7 +104,5 @@ Thomas Schöne
 
 ## Contact
 
-- [Email](mailto:somel@where.io)
-- [Phone](tel:+41791234567)
-- [GitHub](https://github.com/example)
-- [Xing](https://www.xing.com/profile/Andre_Lademann/cv)
+- [Email](mailto:twschoene@gmail.com)
+- [Phone](tel:+491733544872)
