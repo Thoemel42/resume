@@ -13,11 +13,11 @@ Thomas Schöne
 
 ## Work Experience
 
-| period       | position                  | company                                          |
-|--------------|---------------------------|--------------------------------------------------|
-| 2011 - 2014  | SHK/WHK                   | Institute of Computer Science                    |
-| 2014 - 2021  | Software Developer        | [Netresearch DTT](https://www.netresearch.de/)   |
-| 2021 - Today | Senior Software Developer | [Netresearch DTT](https://www.netresearch.de/)   |
+| period       | position                                | company                                          |
+|--------------|-----------------------------------------|--------------------------------------------------|
+| 2011 - 2014  | SHK/WHK (Tutor and WordPress developer) | Institute of Computer Science                    |
+| 2014 - 2021  | Software Developer                      | [Netresearch DTT](https://www.netresearch.de/)   |
+| 2021 - Today | Senior Software Developer               | [Netresearch DTT](https://www.netresearch.de/)   |
 
 ## Speaker
 
